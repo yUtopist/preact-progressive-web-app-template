@@ -1,0 +1,30 @@
+{
+  "short_name": "Preact App Template",
+  "name": "My Preact Progressive Web App",
+  "icons": [
+    {
+      "src": "./icons/icon-vector.svg",
+      "type": "image/svg+xml",
+      "sizes": "1024x1024"
+    },
+    {
+      "src": "./icons/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    }
+  ],
+  "id": "./?source=pwa",
+  "start_url": "./?source=pwa",
+  "background_color": "#232323",
+  "display": "fullscreen",
+  "scope": "./",
+  "theme_color": "#232323",
+  "description": "Repository created to be a template for Progressive Web Applications built on Preact."
+}

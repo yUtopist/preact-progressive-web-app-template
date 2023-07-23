@@ -1,0 +1,26 @@
+:root {
+  --clr-main: white;
+  --clr-accent: #ff6f00;
+  --clr-tention: #ff6f00;
+  --clr-foreground: #101820;
+  --clr-background: #ffffff;
+
+  --font-family-main: 'brandon-grotesque', sans-serif;
+  --font-family-accent: 'zooja-pro', sans-serif;
+
+  --font-size-large: 1.2rem;
+  --font-size-normal: 1rem;
+  --font-size-small: 0.875rem;
+
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-bold: 600;
+
+  --gap-large: 2.25rem;
+  --gap-normal: 1.5rem;
+  --gap-small: 1rem;
+
+  --height-header: 2rem;
+  --height-footer: 2rem;
+  --height-main: calc(100vh - var(--height-header) - var(--height-footer));
+}

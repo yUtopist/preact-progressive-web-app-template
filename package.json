@@ -1,20 +1,27 @@
 {
   "name": "preact-progressive-web-app-template",
-  "description": "Repository created to be a template for Progressive Web Apps built on Preact.",
-  "private": true,
   "version": "0.0.1",
+  "description": "Repository created to be a template for Progressive Web Apps built on Preact.",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "https": "vite --https",
+    "dev": "vite --host",
     "build": "tsc && vite build",
     "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yUtopist/preact-progressive-web-app-template.git"
+  },
+  "author": {
+    "name": "Aleksei Stukalov",
+    "email": "aleksei@stukalov.dev"
   },
   "dependencies": {
     "preact": "^10.16.0"
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.5.0",
+    "@vitejs/plugin-basic-ssl": "^1.0.1",
     "typescript": "^5.0.2",
     "vite": "^4.4.5"
   }
