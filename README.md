@@ -1,3 +1,10 @@
+<!-- 
+*** Thanks to Best-README-Template project for providing this template, for more
+*** information please refer to following link:
+*** https://github.com/othneildrew/Best-README-Template/
+ -->
+
+
 # Preact Progressive Web App Template
 > Repository created to provide a professional template for building Progressive Web Applications with Preact.
 
@@ -54,11 +61,9 @@ Update the `public/webmanifest.json` file with the relevant screenshot informati
 ]
 ```
 ## Roadmap
-[X] Implement core functionality
-
-[  ] Enhance user interface
-
-[  ] Add additional features
+- [X] Implement core functionality
+- [ ] Enhance user interface
+- [ ] Add additional features
 
 
 ## Contact
