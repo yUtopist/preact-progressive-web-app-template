@@ -56,9 +56,9 @@ Update the `public/webmanifest.json` file with the relevant screenshot informati
 ## Roadmap
 [X] Implement core functionality
 
-[ ] Enhance user interface
+[  ] Enhance user interface
 
-[ ] Add additional features
+[  ] Add additional features
 
 
 ## Contact
