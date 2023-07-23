@@ -11,12 +11,13 @@ To clone the repository, execute the following command in your terminal:
 git clone https://github.com/yUtopist/preact-progressive-web-app-template.git
 ```
 
+
 Once you have cloned the project, install the dependencies with:
 
 ```sh
 npm install
 ```
-That's it! Vite provides a development server with both HTTPS and HTTP support. For specific script commands, please refer to the `package.json`` file.
+That's it! Vite provides a development server with both HTTPS and HTTP support. For specific script commands, please refer to the `package.json` file.
 
 Preact has been chosen for its exceptional developer experience and ability to create lighter builds compared to React.
 
