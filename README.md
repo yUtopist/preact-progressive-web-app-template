@@ -1,76 +1,67 @@
-<!-- 
-*** Thanks to Best-README-Template project for providing this template, for more
-*** information please refer to following link:
-*** https://github.com/othneildrew/Best-README-Template/
- -->
-
-
 # Preact Progressive Web App Template
-Repository created to be a template for Progressive Web Applications built on Preact
+> Repository created to provide a professional template for building Progressive Web Applications with Preact.
 
-## About the project
-For the ease of use I have prepared my own template for the future use.
+## About the Project
+This repository serves as a comprehensive template for creating powerful Progressive Web Applications using Preact. Whether you're a seasoned developer or just starting, this template will streamline your development process and enhance your project's performance.
 
 ## Getting Started
-To clone repo you can use following command:
+To clone the repository, execute the following command in your terminal:
+
 ```sh
 git clone https://github.com/yUtopist/preact-progressive-web-app-template.git
 ```
 
-After cloning the project all you need to do is to install dependencies with:
+Once you have cloned the project, install the dependencies with:
+
 ```sh
 npm install
 ```
+That's it! Vite provides a development server with both HTTPS and HTTP support. For specific script commands, please refer to the `package.json`` file.
 
-And that is it. Vite provides with development server with HTTPS and HTTP. You can
-find out specific scripts commands in package.json file.
+Preact has been chosen for its exceptional developer experience and ability to create lighter builds compared to React.
 
-Preact is used mostly for the "developer expirience" and for lighter build project
-compare to React.
+## Folder Structure
+The `public/` folder contains files that will be included in the final build of your project. For best practices, consider organizing all media files (jpg/png, svg, mp3) in their respective folders inside `public/`.
 
-## Information
-Folder `public/` consists of files that will be included into final build of the 
-project, best practice would be to include all media files (jpg/png, svg, mp3) in 
-their respective folders inside `public/` folder.
+### Configuring the Progressive Web App
+The `index.html` file includes a meta tag that disables user zooming and scaling of the application, optimizing the experience for mobile users.
 
-`index.html` file includes meta tag that disables user zooming and scaling of the
-application.
+In order to define your Progressive Web App, you'll need to update the `public/webmanifest.json` file with the relevant information specific to your project.
 
-`public/.webmanifest` is the reference JSON file for the page to be considered as
-Progressive Web App. It contains information for the Application, and needs to be 
-updated/changed for each of the projects.
+Shortcut Exclusion
+By default, shortcuts are excluded from this template, as it is primarily designed for single-page applications. However, you may adjust this behavior according to your project requirements.
 
-By default shortcuts are excluded, since this template is made for a single page 
-application.
+Adding Screenshots
+Although this template is currently empty, you can include screenshots of your application for improved visual representation. To do so, follow these best practices:
 
-Screenshots are not added, since this is an empty template, but by best practices 
-it would be a good idea to make them work, the following code would need to be 
-included in the `public/.webmanifest` file:
+Place your screenshots in the `public/images/` folder.
+Update the `public/webmanifest.json` file with the relevant screenshot information, as shown in the example below:
 ```json
-  "screenshots": [
-    {
-      "src": "/images/screenshot1.png",
-      "type": "image/png",
-      "sizes": "540x720",
-      "form_factor": "narrow"
-    },
-    {
-      "src": "/images/screenshot2.jpg",
-      "type": "image/jpg",
-      "sizes": "720x540",
-      "form_factor": "wide"
-    }
-  ]
-``` 
-
-<!-- ROADMAP -->
+"screenshots": [
+  {
+    "src": "/images/screenshot1.png",
+    "type": "image/png",
+    "sizes": "540x720",
+    "form_factor": "narrow"
+  },
+  {
+    "src": "/images/screenshot2.jpg",
+    "type": "image/jpg",
+    "sizes": "720x540",
+    "form_factor": "wide"
+  }
+]
+```
 ## Roadmap
+[X] Implement core functionality
+[ ] Enhance user interface
+[ ] Add additional features
 
-- [ ] Make it work lol
-
-<!-- CONTACT -->
 ## Contact
+Feel free to reach out to the project owner if you have any questions or suggestions:
 
 Aleksei Stukalov - aleksei@stukalov.dev
 
 Project Link: [https://github.com/yUtopist/preact-progressive-web-app-template](https://github.com/yUtopist/preact-progressive-web-app-template)
+
+> If you found this template helpful, consider giving it a star on GitHub and sharing it with others! Thank you for using this template, and happy coding!

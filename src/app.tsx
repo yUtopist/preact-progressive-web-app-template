@@ -1,6 +1,6 @@
 import './App.css'
 
-export function App() {
+export const App = () => {
 
   return (
     <>

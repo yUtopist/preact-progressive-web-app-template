@@ -1,1 +1,5 @@
-import { getFiles, setupPrecaching, setupRouting } from 'preact-cli/sw';
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register("/serviceworker.js");
+}
+
+console.log("Hello World")
